@@ -1,0 +1,12 @@
+# # Serial comms protocol    
+# # SD 3600 - Set Datum - set existing location to both motor distances to 3600 steps
+# # LM 1000 - Left Motor - increment left motor 1000 steps, relative
+# # RM 2000 - Right Motor – increment right motor 2000 steps, relative
+# # GP – get motor positions
+# # BM L2333 R5000 - Both Motors – move left motor to 2333 steps, right motor to 5000 steps, absolute
+# # SS 110 - Set servo – set servo to angle 110 degrees
+# # BS A150 D500 B30 - Bounce servo – set servo to 150 degrees, for 500 ms, return to 30 degrees
+# # STOPXY - Sets a new target position that causes the XY steppers to stop as quickly as possible, using the current speed and acceleration parameters.
+# # ? - Report position
+
+
